@@ -41,6 +41,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h1 className="app-title">+1 Searchbar Mechanic</h1>
         <SearchBox onSearchChange={onSearchChange} />
         <CardList monsters={filteredNames} />
       </div>
